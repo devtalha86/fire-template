@@ -1,0 +1,6 @@
+<svg id="Grid" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <path id="Path_14" data-name="Path 14" d="M12,0H2A2,2,0,0,0,0,2V12a2,2,0,0,0,2,2H12a2,2,0,0,0,2-2V2A2,2,0,0,0,12,0Zm0,12H2V2H12Z" fill="#121313"/>
+  <path id="Path_15" data-name="Path 15" d="M30,0H20a2,2,0,0,0-2,2V12a2,2,0,0,0,2,2H30a2,2,0,0,0,2-2V2A2,2,0,0,0,30,0Zm0,12H20V2H30Z" fill="#121313"/>
+  <path id="Path_16" data-name="Path 16" d="M30,18H20a2,2,0,0,0-2,2V30a2,2,0,0,0,2,2H30a2,2,0,0,0,2-2V20A2,2,0,0,0,30,18Zm0,12H20V20H30Z" fill="#121313"/>
+  <path id="Path_17" data-name="Path 17" d="M12,18H2a2,2,0,0,0-2,2V30a2,2,0,0,0,2,2H12a2,2,0,0,0,2-2V20A2,2,0,0,0,12,18Zm0,12H2V20H12Z" fill="#121313"/>
+</svg>
