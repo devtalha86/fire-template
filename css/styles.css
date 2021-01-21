@@ -923,6 +923,50 @@
   right: 15px;
   bottom: 20px; }
 
+.events--pdf {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+  margin-bottom: 20px; }
+  .events--pdf a:hover {
+    text-decoration: none; }
+  .events--pdf .lodur-icon-pdf {
+    font-size: 25px;
+    color: #ed1c2e; }
+  .events--pdf .pdf-title {
+    display: block;
+    padding-left: 10px; }
+
+.modal-dialog {
+  max-width: 600px; }
+
+#custCarousel .carousel-indicators {
+  position: static;
+  margin: 1.5rem 0 0;
+  display: flex;
+  flex-wrap: wrap; }
+  #custCarousel .carousel-indicators > li {
+    width: 100px; }
+  #custCarousel .carousel-indicators li {
+    height: initial;
+    margin-left: 0;
+    margin-bottom: 0.6rem; }
+    #custCarousel .carousel-indicators li img {
+      display: block;
+      opacity: 0.5;
+      height: 70px;
+      width: 150px;
+      object-fit: cover; }
+    #custCarousel .carousel-indicators li:hover img {
+      opacity: 0.75; }
+  #custCarousel .carousel-indicators li.active img {
+    opacity: 1; }
+
+.carousel-item img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover; }
+
 body {
   background: #ffffff;
   font-size: 14px; }
@@ -1168,7 +1212,6 @@ body {
         .org-template--1 .allEvents--container .theEvents ul li .left-container span.currentDay--label {
           background-color: #FF3409;
           padding: 0 5px 2px;
-          margin-top: 10px;
           font-size: 12px;
           color: #fff; }
         .org-template--1 .allEvents--container .theEvents ul li .left-container span.Day--label {
@@ -1191,14 +1234,7 @@ body {
           display: block;
           font-size: 14px; }
   .org-template--1 .allEvents--container .eventDetails--container {
-    margin-top: 40px;
-    width: 100%;
-    border-radius: 15px;
-    background-color: #fff;
-    padding: 30px 30px 20px;
-    -webkit-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.34);
-    -moz-box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.34);
-    box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.34); }
+    padding: 10px; }
     .org-template--1 .allEvents--container .eventDetails--container h5 {
       font-size: 16px;
       font-weight: bold; }
@@ -1799,6 +1835,9 @@ body {
       .org-template--1 section.fahrzeuge-details .f-description span:first-child {
         font-weight: bold;
         margin-bottom: 0.7rem; }
+
+.eventImage--container {
+  margin-top: 30px; }
 
 footer {
   background-color: #3A434D;

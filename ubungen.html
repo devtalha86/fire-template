@@ -67,7 +67,8 @@
                 <div class="row theEvents">
                     <div class="col-12 p-0">
                         <ul>
-                            <li>
+                            <li data-toggle="modal" data-target="#eventDetails--modal">
+                                
                                 <div class="left-container">
                                     <span class="eventType--icon lodur-icon-axe-big"></span>
                                     
@@ -79,22 +80,7 @@
                                     <span>Hptm Wahlström Nils</span>
                                 </div>
                                 
-                                <!-- Details Box -->
-
-                                <div class="eventDetails--container">
-                                    <div class="row">
-                                        <div class="col-12 pr-0">
-                                            <h5>18.03.2020</h5>
-                                            <span class="primary-text--color">Oelunfall Gempenturmstrasse 15</span>
-                                        </div>
-                                    </div>
-                                    <hr>
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <p>Die Feuerwehr Gempen wurde am 10.03.19 um 15.15 Uhr aufgeboten um die Strasse nach Muttenz zu sperren, da viele Bäume nach einem Sturmtief die Strasse blockierten.</p>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </li>
                             <li>
                                 <div class="left-container">
@@ -882,11 +868,120 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Modal -->
+        <div class="modal fade" id="eventDetails--modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content eventDetails--container">
+                    
+                    
+
+                    <div class="modal-header">
+                        <div>
+                            <h5>18.03.2020</h5>
+                            <span class="primary-text--color">Oelunfall Gempenturmstrasse 15</span>
+                        </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    <!-- Details Box -->
+
+                    <div class="row mb-2">
+                        <div class="col-12">
+                            <p>Die Feuerwehr Gempen wurde am 10.03.19 um 15.15 Uhr aufgeboten um die Strasse nach Muttenz zu sperren, da viele Bäume nach einem Sturmtief die Strasse blockierten.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12 d-flex flex-wrap">
+                            <div class="events--pdf">
+                                <a class="d-flex justify-content-center" href="#"><span class="lodur-icon-pdf"></span><span class="pdf-title">Pdf titlederg dfgdf goes here</span></a>
+                            </div>
+                            <div class="events--pdf">
+                                <a class="d-flex justify-content-center" href="#"><span class="lodur-icon-pdf"></span><span class="pdf-title">Pdf tidfdftle goes here</span></a>
+                            </div>
+                            <div class="events--pdf">
+                                <a class="d-flex justify-content-center" href="#"><span class="lodur-icon-pdf"></span><span class="pdf-title">Pdf tidfdgdfgdfgdfgdf dfg dfgd ftle goes here</span></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="eventImage--container">
+                                <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
+                                    <div class="d-flex ">
+                                        <!-- slides -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active"> <img src="assets/image/gallery/6.jpg" alt="Hills"> </div>
+                                            <div class="carousel-item"> <img src="assets/image/gallery/2.jpg" alt="Hills"> </div>
+                                            <div class="carousel-item"> <img src="assets/image/gallery/3.jpg" alt="Hills"> </div>
+                                            <div class="carousel-item"> <img src="assets/image/gallery/4.jpg" alt="Hills"> </div>
+                                            <div class="carousel-item"> <img src="assets/image/gallery/7.jpg" alt="Hills"> </div>
+                                            <!-- Left right --> 
+                                                <a class="carousel-control-prev" href="#custCarousel" data-slide="prev"> <span class="carousel-control-prev-icon"></span> </a> 
+                                                <a class="carousel-control-next" href="#custCarousel" data-slide="next"> <span class="carousel-control-next-icon"></span> </a> 
+                                            <!-- Thumbnails -->
+                                        </div> 
+                                        
+                                        
+                                    </div>
+
+                                    <ol class="carousel-indicators list-inline">
+                                        <li class="list-inline-item active"> <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel"> <img src="assets/image/gallery/6.jpg" class="img-fluid"> </a> </li>
+                                        <li class="list-inline-item"> <a id="carousel-selector-1" data-slide-to="1" data-target="#custCarousel"> <img src="assets/image/gallery/2.jpg" class="img-fluid"> </a> </li>
+                                        <li class="list-inline-item"> <a id="carousel-selector-2" data-slide-to="2" data-target="#custCarousel"> <img src="assets/image/gallery/3.jpg" class="img-fluid"> </a> </li>
+                                        <li class="list-inline-item"> <a id="carousel-selector-3" data-slide-to="3" data-target="#custCarousel"> <img src="assets/image/gallery/4.jpg" class="img-fluid"> </a> </li>
+                                        <li class="list-inline-item"> <a id="carousel-selector-4" data-slide-to="4" data-target="#custCarousel"> <img src="assets/image/gallery/7.jpg" class="img-fluid"> </a> </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
             </div>
         </section>
         
 
         </main>
+
+        <!-- Image Display Modal -->
+
+<div class="modal fade" id="eventImage--modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+        
+  
 
         <footer>
             <div class="container foo--container">
